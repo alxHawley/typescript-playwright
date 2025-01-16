@@ -2,7 +2,7 @@
 
 # Playwright TypeScript Project
 
-This project is a setup for using Playwright with TypeScript for end-to-end, integration, and API testing. 
+Test automation project with TypeScript and Playwright: WIP. Status: placeholder content
 
 ## Table of Contents
 - [Installation](#installation)
@@ -56,6 +56,6 @@ playwright-ts-project
 
 ## Examples
 
-Refer to the respective `example.spec.ts` files in each test directory for sample test cases and how to structure your tests. 
+Refer to the `.spec.ts` files in each test directory for basic test cases and test structure. 
 
 For more detailed information on Playwright, visit the [Playwright Documentation](https://playwright.dev/docs/intro).
