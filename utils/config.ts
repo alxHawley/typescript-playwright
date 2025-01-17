@@ -5,3 +5,14 @@ export const config = {
         auth: 'auth'
     }
 };
+
+export const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+export const getAuthHeaders = (token: string) => ({
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    'Cookie': `token=${token}`
+});
