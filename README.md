@@ -37,8 +37,8 @@ to:
    npx playwright test
    ```
 
-## Project Structure
 
+## Project Structure
 
 typescript-playwright/
 ├── src/
