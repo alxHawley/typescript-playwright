@@ -6,8 +6,15 @@ on:
     branches: [ main, master ]
 jobs:
   test:
-    timeout-minutes: 60
+    timeout-minutes: 30
     runs-on: ubuntu-latest
+
+    services:
+      api:
+        image: mwinteringham/restfulbooker:latest
+        ports:
+          - 3001:3001
+
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
@@ -18,7 +25,11 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests
-      run: npx playwright test
+      run: |
+        # Run tests for restfulbooker.spec.ts using the Docker service
+        npx playwright test src/tests/api/restfulbooker.spec.ts
+        # Run other tests using the production site
+        npx playwright test --grep-invert restfulbooker
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
