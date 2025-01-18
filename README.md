@@ -47,7 +47,7 @@ typescript-playwright/
 │   │   │   └── restfulbooker.spec.ts
 │   │   ├── e2e/
 │   │   │   └── auth.spec.ts
-│   │   │   └── example.spec.ts
+│   │   │   └── purchase.spec.ts
 │   ├── utils/
 │   │   ├── api.config.ts
 │   │   ├── sauce.users.ts
