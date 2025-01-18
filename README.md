@@ -2,10 +2,10 @@
 
 Test automation project with TypeScript and Playwright: WIP.
 
-NOTE: The API tests in this project, 'restfulbooker.spec.ts', run against a docker image and has a Github Actions workflow to do the same (see 'playwright.yml'. You can either pull this image down and run the image locally to test OR you can change the base url in 'api.config.ts' from:
+NOTE: The API tests in this project, `restfulbooker.spec.ts`, run against a docker image and have a GitHub Actions workflow to do the same (see `playwright.yml`). You can either pull this image down and run the image locally to test OR you can change the base URL in `api.config.ts` from:
 
 ```bash
-'http://localhost:3001')
+'http://localhost:3001'
 ```
 
 to:
@@ -37,9 +37,9 @@ to:
    npx playwright test
    ```
 
-
 ## Project Structure
 
+```
 typescript-playwright/
 ├── src/
 │   ├── tests/
@@ -58,10 +58,11 @@ typescript-playwright/
 ├── package.json
 ├── tsconfig.json
 └── README.md
+```
 
 ## Usage
 
 - **End-to-End Tests:** Located in `src/tests/e2e/`, these tests simulate user interactions with the application.
-- **API Tests:** Located in `src/tests/api/`, these tests validate the API endpoints and responses
+- **API Tests:** Located in `src/tests/api/`, these tests validate the API endpoints and responses.
 
 For more detailed information on Playwright, visit the [Playwright Documentation](https://playwright.dev/docs/intro).
