@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { config, headers, getAuthHeaders } from '../../../utils/config';
+import { config, headers, getAuthHeaders } from '../../../utils/api.config';
 import { bookingSchema } from '../../../utils/schemas/booking.schema';
 import Ajv from 'ajv';
 
