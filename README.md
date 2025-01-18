@@ -64,4 +64,12 @@ typescript-playwright/
 - **End-to-End Tests:** Located in `src/tests/e2e/`, these tests simulate user interactions with the application.
 - **API Tests:** Located in `src/tests/api/`, these tests validate the API endpoints and responses.
 
+## Resources
+
 For more detailed information on Playwright, visit the [Playwright Documentation](https://playwright.dev/docs/intro).
+
+API playground: https://restful-booker.herokuapp.com/apidoc/index.html, provided by Mark Winteringham at https://www.mwtestconsultancy.co.uk/
+
+API Docker Image: https://hub.docker.com/r/mwinteringham/restfulbooker/tags
+
+FE playground for Playwright: https://www.saucedemo.com/, provided by https://saucelabs.com/
