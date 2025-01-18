@@ -1,5 +1,3 @@
-# README.md
-
 # Playwright TypeScript Project
 
 Test automation project with TypeScript and Playwright: WIP.
