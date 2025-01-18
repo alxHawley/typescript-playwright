@@ -39,25 +39,6 @@ to:
 
 
 ## Project Structure
-
-typescript-playwright/
-├── src/
-│   ├── tests/
-│   │   ├── api/
-│   │   │   └── restfulbooker.spec.ts
-│   │   ├── e2e/
-│   │   │   └── auth.spec.ts
-│   │   │   └── example.spec.ts
-│   ├── utils/
-│   │   ├── api.config.ts
-│   │   ├── sauce.users.ts
-│   │   └── schemas/
-│   │       └── booking.schema.ts
-├── playwright.config.ts
-├── package.json
-├── tsconfig.json
-└── README.md
-
 ## Usage
 
 - **End-to-End Tests:** Located in `src/tests/e2e/`, these tests simulate user interactions with the application.
