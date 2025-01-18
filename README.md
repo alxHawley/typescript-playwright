@@ -50,7 +50,6 @@ typescript-playwright/
 │   │   │   └── example.spec.ts
 │   ├── utils/
 │   │   ├── api.config.ts
-│   │   ├── config.ts
 │   │   ├── sauce.users.ts
 │   │   └── schemas/
 │   │       └── booking.schema.ts
