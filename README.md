@@ -39,6 +39,7 @@ to:
 
 
 ## Project Structure
+
 typescript-playwright/
 ├── src/
 │   ├── tests/
@@ -56,6 +57,7 @@ typescript-playwright/
 ├── package.json
 ├── tsconfig.json
 └── README.md
+
 ## Usage
 
 - **End-to-End Tests:** Located in `src/tests/e2e/`, these tests simulate user interactions with the application.
