@@ -2,7 +2,8 @@
 
 # Playwright TypeScript Project
 
-Test automation project with TypeScript and Playwright: WIP. Status: placeholder content.
+Test automation project with TypeScript and Playwright: WIP.
+
 NOTE: The API tests in this project, 'restfulbooker.spec.ts', run against a docker image and has a Github Actions workflow to do the same (see 'playwright.yml'. You can either pull this image down and run the image locally to test OR you can change the base url in 'api.config.ts' from:
 
 ```bash
